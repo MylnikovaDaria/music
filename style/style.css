@@ -32,11 +32,21 @@ body {
   display: inline-block;
   height: 75px;
   margin-right: 20px;
+  animation-name: rotate_logo;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
 
 .header__logo {
   height: 75px;
   width: 75px;
+}
+
+@keyframes rotate_logo {
+  from{transform: rotate(-45deg);}
+  50%{transform: rotate(45deg);}
+  to{transform: rotate(-45deg);}
 }
 
 .header__logo__title {
@@ -83,7 +93,7 @@ body {
 
 .top {
   height: 500px;
-  background-image: url(../images/music51.jpg);
+  background-image: url(../images/index_top_bg.jpg);
   background-repeat: repeat-x;
   background-position: top center;
   background-size: cover;
@@ -132,6 +142,39 @@ body {
   width: 100%;
   height: 60px;
   border-bottom: 2px solid #d1d2d3;
+}
+
+.flex__button {
+  position: fixed;
+  right: 0px;
+  bottom: 80px;
+}
+
+.flex__button__a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
+  height: 100px;
+  background-color: rgba(64,169,244, 0.4);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.flex__button__a:hover {
+  background-color:rgba(64,169,244, 1);
+}
+
+.flex__button_title {
+  display: block;
+  transform-origin: bottom;
+  transform: rotate(-90deg);
+  margin-left: 15px;
+  margin-top: 26px;
 }
 
 .search .container{
@@ -276,26 +319,61 @@ body {
   color: #2b2f34;
 }
 
-.main__advert {
+.main__ad {
   margin-top: 80px;
   margin-bottom: 100px;
   padding-bottom: 30px;
   height: 300px;
 }
-.main__advert__ul {
-  width: 100%;
+
+.main__ad__ul {
+  width: 50%;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  float: left;
 }
-.main__advert__li {
+
+.main__ad__li {
   margin: 0 10px;
   cursor: pointer;
 }
-.main__advert__a {
+
+.main__ad__a {
   display: block;
+}
+
+.main__ad__block {
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+.main__ad__block__img {
+  float: right;
+}
+
+.main__ad__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #40a9f4;
+}
+
+.main__ad__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #2b2f34;
+}
+
+.main__ad__button {
+  display: inline-block;
+  margin-top: 40px;
 }
 
 .footer {
