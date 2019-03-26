@@ -178,15 +178,33 @@ body {
   background-color: #fff;
   cursor: pointer;
   overflow: hidden;
+  position: relative;
 }
 .p_playlist__table__item:hover {
-  background-color: #E7E7E7;
+  background-color: #f3f3f3;
+  transition: .5s;
 }
 
 .p_playlist__table__item__img {
   width: 14%;
   padding: 6px;
   float: left;
+}
+
+.fa-play-circle{
+  font-size: 38px;
+  color: #1EB2E5;
+  position: absolute;
+  top: 15;
+  left: 90%;
+  right: 15;
+  bottom: 0;
+  opacity: 0;
+}
+
+.p_playlist__table__item:hover .fa-play-circle {
+  opacity: 1;
+  transition: .7s;
 }
 
 .p_playlist__table__songname {
