@@ -1,30 +1,31 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Poppins', sans-serif;
 }
 
-.container{
+.container {
+  font-family: 'Roboto',sans-serif;
   width: 85%;
   margin: 0 auto;
 }
 
-.main{
+.main {
   width: 100%;
   background-color: #F2F2F2;
   margin-top: 40px;
 }
-.p_main__section__playersection__header{
+
+.p_main__section__playersection__header {
   display: flex;
   margin-top: 20px;
   width: 100%;
   justify-content: space-between;
 }
 
-.p_main__section__playersection__title{
-  font-family: 'Poppins' sans-serif;
+.p_main__section__playersection__title {
+  font-family: 'Poppins' , sans-serif;
   text-transform: uppercase;
 }
-.p_main__section__playersection__button{
+.p_main__section__playersection__button {
   text-align: center;
   margin-top: 20px;
   width: 170px;
@@ -39,7 +40,7 @@ body {
   cursor: pointer;
 }
 
-.p_main__section__playersection__button__title{
+.p_main__section__playersection__button__title {
   margin: 0 auto;
   margin-top: 12px;
 }
@@ -48,11 +49,11 @@ body {
   font-size: 36px;
 }
 */
-.p_main__section__playersection__button:hover{
+.p_main__section__playersection__button:hover {
   background-color: #29292D;
 }
 
-.p_main_section__playersection__player{
+.p_main_section__playersection__player {
   position: sticky;
   top: 0;
   min-height: 2em;
@@ -63,37 +64,38 @@ body {
   margin-top: 20px;
 }
 
-.p_main__section__playersection__player__albumphoto{
+.p_main__section__playersection__player__albumphoto {
   float: left;
   margin: 15px;
   width: 170px;
   border: 1px solid grey;
 }
 
-.p_main__section__playersection__player__songname{
+.p_main__section__playersection__player__songname {
+  font-family: 'Poppins', sans-serif;
   color: #F96145;
   font-size: 32px;
   margin-top: 30px;
 }
 
-.p_main__section__playersection__player__albumname{
+.p_main__section__playersection__player__albumname {
   color: grey;
   font-size: 12px;
   font-weight: 100;
 }
-.p_main__section__playersection__player__albumname::before{
+.p_main__section__playersection__player__albumname::before {
   content: '(';
 }
-.p_main__section__playersection__player__albumname::after{
+.p_main__section__playersection__player__albumname::after {
   content: ')';
 }
 
-.p_main__section__playersection__player__artist{
+.p_main__section__playersection__player__artist {
   color: white;
   margin: 0;
 }
 
-.player__controlmusic{
+.player__controlmusic {
   font-size: 36px;
   color: white;
   padding: 15px;
@@ -103,16 +105,16 @@ body {
   cursor: pointer;
 }
 
-.player__controlmusic_pause{
+.player__controlmusic_pause {
   font-size: 36px;
   padding: 10px;
 }
 
-.player__controlmusic__pause:hover{
+.player__controlmusic__pause:hover {
   color: #1EB2E5;
 }
 
-.p_main__section__player__runner{
+.p_main__section__player__runner {
   cursor: pointer;
   float: left;
   margin-top: 10px;
@@ -122,7 +124,7 @@ body {
   border-radius: 2px;
 }
 
-.p_player__runner__countdown{
+.p_player__runner__countdown {
   text-align:right;
   width: 200px;
   height: 4px;
@@ -130,7 +132,7 @@ body {
   background-color: #1EB2E5;
 }
 
-.p_player__controlmusic__time{
+.p_player__controlmusic__time {
   float: right;
   color: grey;
   padding-right: 20px;
@@ -138,33 +140,34 @@ body {
   font-size: 12px;
 }
 
-.p_main__article{
+.p_main__article {
   width: 85%;
   margin: 0 auto;
   clear: both;
   display: flex;
   justify-content:flex-start;
   margin: 0 auto;
-padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-.p_main__article__playlist{
+.p_main__article__playlist {
   margin-right: 70px;
 }
 
-.p_main__article__playlist__title{
+.p_main__article__playlist__title {
+  font-family: 'Poppins', sans-serif;
   margin-top: 50px;
   font-size: 24px;
   color: #1EB2E5;
 }
 
-.p_main__article__playlist__table{
+.p_main__article__playlist__table {
   margin-top: 20px;
   width: 100%;
   height: 700px;
 }
 
-.p_playlist__table__item{
+.p_playlist__table__item {
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -176,62 +179,75 @@ padding-bottom: 50px;
   cursor: pointer;
   overflow: hidden;
 }
-.p_playlist__table__item:hover{
+.p_playlist__table__item:hover {
   background-color: #E7E7E7;
 }
 
-.p_playlist__table__item__img{
+.p_playlist__table__item__img {
   width: 14%;
   padding: 6px;
   float: left;
 }
 
-.p_playlist__table__songname{
+.p_playlist__table__songname {
   padding-left: 70px;
   padding-top: 40px;
   font-size: 18px;
 }
-.p_playlist__table__albumname{
+.p_playlist__table__albumname {
   color: #F96145;
   font-size: 12px;
   font-weight: 100;
   padding-left: 10px;
 }
 
-.p_main__article__lirycs{
+.p_main__article__lirycs {
   width: 30%;
   font-size: 24px;
   color: #1EB2E5;
 }
-.p_main__article__lyrics__title{
+
+.p_main__article__lyrics__text {
+  line-height : 22px;
+  color: #29292D;
+}
+
+.p_main__article__lyrics__title {
+  font-family: 'Poppins', sans-serif;
   margin-top:50px;
   color: black;
   font-size: 24px;
 }
 
-.p_main_article__lyrics__songname{
+.p_main_article__lyrics__songname {
   margin-top: 30px;
 }
 
-.p_main__article__lyrics__text{
+.p_main__article__lyrics__text {
   padding-top: 20px;
 }
 
-.p_main__likeit{
+.p_main__likeit {
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 300px;
   background-color: #fff;
   color: black;
   padding-top: 40px;
 }
-.p_likeit__list{
+
+.p_likeit_title {
+  font-family: 'Poppins', sans-serif;
+}
+
+.p_likeit__list {
   list-style: none;
   font-size: 0;
   box-sizing: border-box;
   cursor: pointer;
 }
 
-.p_likeit__item{
+.p_likeit__item {
   box-sizing: border-box;
   position: relative;
     overflow: hidden;
@@ -244,7 +260,7 @@ padding-bottom: 50px;
   padding: 5px;
 }
 
-.p_likeit__item_photo{
+.p_likeit__item_photo {
   position: absolute;
   top: 5px;
   right: 0;
@@ -254,7 +270,8 @@ padding-bottom: 50px;
   width: 95%;
 }
 
-.p_likeit_artistname{
+.p_likeit_artistname {
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   padding-left: 15px;
   padding-top: 15px;
@@ -263,12 +280,12 @@ padding-bottom: 50px;
   text-transform: uppercase;
 }
 
-.p_likeit_musictype{
+.p_likeit_musictype {
   padding-left: 15px;
   font-size: 18px;
 }
 
-.p_likeit_artistinfo__hover{
+.p_likeit_artistinfo__hover {
   color: white;
   width: 95%;
   height: 206px;
@@ -278,18 +295,18 @@ padding-bottom: 50px;
   top:150px;
 }
 
-.p_likeit__artistinfo__hover__text{
+.p_likeit__artistinfo__hover__text {
   display: block;
   width: 80%;
   padding:15px;
 }
 
-.p_likeit_artistinfo__hover:hover{
+.p_likeit_artistinfo__hover:hover {
   top:5px;
     transition: 0.5s;
 }
 
-.p_likeit__item:hover{
+.p_likeit__item:hover {
 box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
 }
 .footer{
