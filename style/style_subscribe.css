@@ -1,13 +1,13 @@
 
 
 body {
-  background-color: #fff;
+  background-color: #fff;    
+}
+
+.container { 
   font-family: 'Roboto','Poppins', sans-serif;
   max-width: 1270px ;
   text-align: center ;  
-}
-
-.container {   
   margin: 0 auto;
 }
 
@@ -124,13 +124,17 @@ span{
 }
 
 .image__block__box:first-child{
-  padding-top: 40px ;
+  padding-top: 50px ;
 }  
 
 .image__block__box__text{
   padding-top: 20px ;
   margin-top: -10px ;
   font-size: 19px ;  
+}
+
+.boxes__first__text{
+  padding-top: 70px ;
 }
 
 .devices__block__image{
@@ -145,7 +149,7 @@ input{
   width: 140px ;
   height: 40px ;
   border-radius: 20px ;
-  background-color: indianred ;
+  background-color: #40a9f4 ;
   
 }
 
@@ -207,65 +211,8 @@ td:first-child:hover{
   border-radius: 20px ;
 }
 
-.main__ad {
-  margin-top: 80px;
-  margin-bottom: 100px;
-  padding-bottom: 30px;
-  height: 300px;
-}
 
-.main__ad__ul {
-  width: 50%;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  float: left;
-}
-
-.main__ad__li {
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.main__ad__a {
-  display: block;
-}
-
-.main__ad__block {
-  height: 100%;
-  width: 40%;
-  float: right;
-}
-
-.main__ad__block__img {
-  float: right;
-}
-
-.main__ad__title {
-  margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: normal;
-  text-transform: uppercase;
-  color: #40a9f4;
-}
-
-.main__ad__text {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: normal;
-  color: #2b2f34;
-}
-
-.main__ad__button {
-  display: inline-block;
-  margin-top: 40px;
-}
-
-.footer {
-  margin-top: 40px ;
+.footer {  
   height: 220px;
   background-color: #000;
   display: flex;
