@@ -4,9 +4,8 @@ body {
   background-color: #fff;    
 }
 
-.container { 
-  font-family: 'Roboto','Poppins', sans-serif;
-  max-width: 1400px ;
+.s_container { 
+  font-family: 'Roboto','Poppins', sans-serif;  
   text-align: center ;  
   margin: 0 auto;
 }
@@ -84,60 +83,65 @@ body {
   color: #40a9f4;
 }
 
-.main__title{
+.s_main__title{
   text-align: center ;
   padding-top: 30px ;
   font-size: 40px ;
 }
 
-.main__top{
+.s_main__top{
   background-image: url(../images/index_top_bg.jpg) ;
   color: white ;
   height: 400px ;
+}
+
+.s_image__block__title p{
+  color: white ;
 }
 
 .title{
   margin: 0 310px ;
   font-size: 25px ;
   padding-top: 20px ;
-}
+  color: #2b2f34 ;
+} 
 
 span{  
   font-size: 30px ;
-  color: red ;  
+  color: tomato ;  
   margin: 10px ;
   padding: 10px ;
   border-radius: 40px 20px ;
 }
 
-.image__block__boxes{
+.s_image__block__boxes{
   display: flex ;
   margin: 0 20px ;
   padding-top: 30px ;
 }
 
-.image__block__box{
+.s_image__block__box{
   box-sizing: border-box ;
   margin: 0 auto ;
   width: 90% ;
   text-align: center ;
 }
 
-.image__block__box:first-child{
+.s_image__block__box:first-child{
   padding-top: 50px ;
 }  
 
-.image__block__box__text{
+.s_image__block__box__text{
   padding-top: 20px ;
   margin-top: -10px ;
   font-size: 19px ;  
 }
 
-.boxes__first__text{
+.s_boxes__first__text{
   padding-top: 70px ;
 }
 
-.devices__block__image{
+.s_devices__block__image{
   text-align: center ;
 }
 
@@ -150,43 +154,44 @@ input{
   height: 40px ;
   border-radius: 20px ;
   background-color: #40a9f4 ;
+  outline: none;
   
 }
 
-.subscribe__type__backgraunt{
-  background-image: url(../images/plast.jpg) ;
-  background-repeat: no-repeat ;
-  background-size: cover ;
-  margin-top: 30px ;
-}
+.s_subscribe__type__width{
+  max-width: 1300px ;
+  text-align: center ;  
+  margin: 0 auto;
+}  
 
-.subscribe__type__boxes{
+.s_subscribe__type__boxes{
   display: flex ;
   box-sizing: border-box ;
   margin:0 auto ;
   width: 50% ;
   position: relative ;
-  left: 170px ;
+  left: 205px ;
   padding-top: 40px ;
+  
 }
 
-.subscribe__type__box{
+.s_subscribe__type__box{
   text-align: center ;
   margin: 0 10px ; 
 }
 
-.subscribe__type__box:last-child{
+.s_subscribe__type__box:last-child{
   position: relative ;
-  left: 30px ;
+  left: 20px ;
 }
 
-.subscribe__type__box p{
+.s_subscribe__type__box p{
   box-sizing: border-box ;
   margin: 0 auto ;
   width: 100% ;
   height: 40% ;
   padding: 10px 5px 40px 5px ;
-}  
+} 
 
 table {
   width: 100%;    
@@ -203,11 +208,11 @@ td, th {
 }
 
 td:first-child {  
-  padding-left: 2px ;
+  padding-left: 20px ;
 } 
 
 td:first-child:hover{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(71, 71, 71, 0.5);
   border-radius: 20px ;
 }
 
