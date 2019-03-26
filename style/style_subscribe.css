@@ -2,10 +2,12 @@
 
 body {
   background-color: #fff;
+  font-family: 'Roboto','Poppins', sans-serif;
+  max-width: 1350px ;
+  text-align: center ;  
 }
 
-.container {  
-  max-width: 1360px;
+.container {   
   margin: 0 auto;
 }
 
