@@ -1,48 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="normalize/normalize.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Roboto+Mono" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Music Box</title>
 </head>
+
 <body>
-  <div class="container">
-    <header class="header">
-      <img src="" alt="" class="header__logo">
+  <header class="header">
+    <a href="index.html" class="header__logo__a"><img src="images/index_logo.png" alt="logotype" class="header__logo"></a>
+    <a href="index.html" class="header__logo__title">Music Box</a>
+    <nav class="header__nav">
+      <ul class="header__nav__ul">
+        <li class="header__nav__li"><a href="pages/new_music.html" class="header__nav__li__a">New music</a></li>
+        <li class="header__nav__li"><a href="pages/player.html" class="header__nav__li__a">Player</a></li>
+        <li class="header__nav__li"><a href="pages/lists.html" class="header__nav__li__a">Playlists</a></li>
+        <li class="header__nav__li"><a href="pages/subscribe.html" class="header__nav__li__a">Subscribe</a></li>
+        <li class="header__nav__li"><a href="#" class="header__nav__li__a"><i class="far fa-user"></i></a></li>
+      </ul>
+    </nav>
+    <!--end header nav-->
+  </header>
+  <!--end header-->
 
-      <nav class="header__nav">
-        <ul class="header__nav__ul">
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
+  <div class="top">
+    <div class="container">
+      <h1 class="top__title">Explore Top Music</h1>
+      <a class="top__button" href="pages/subscribe.html">Subscribe & Enjoy</a>
+    </div><!--end top container-->
+  </div><!--end top-->
+
+  <div class="flex__button">
+    <a class="flex__button__a" href="#"><span class="flex__button_title">Feedback</span></a>
+  </div><!--end flex button-->
+
+  <div class="search">
+    <div class="container">
+      <form class="search__form">
+        <input class="search__place" type="text" placeholder="Search..." />
+        <button class="search__button" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+    <!--end  search container-->
+  </div>
+  <!--end search-->
+  
+  <main class="main">
+    <div class="container">
+      <div class="main_block">
+        <a class="main__start" href="#main_info"><i class="fas fa-chevron-down"></i></a>
+
+        <section class="main__section" id="main_info">
+          <h2 class="main__title">Featured <span class="main__title_span"></span>albums</h2>
+
+          <article class="main__article">
+            <img class="main__arct__img" src="images/index_article1.jpg" alt="album photo">
+            <h3 class="main__arct__title"> Foals</h3>
+            <h4 class="main__arct__subtitle">‘Everything Not Saved Will Be Lost: Part 1’</h4>
+            <p class="main__arct__text">The intricacies and experimentalism of those math-rock early days, the spacey ambience of ‘Total Life Forever’,
+            and the bolshy production brilliance of those last two records:it’s all here.</p>
+            <p class="main__arct__text">If this is just the first act of ‘Everything Not Saved Will Be Lost’, then this era may just prove to be Foals’ making.</p>
+          </article><!--end main article-->
+
+          <article class="main__article">
+            <img class="main__arct__img" src="images/index_article2.jpg" alt="album photo">
+            <h3 class="main__arct__title">Solange</h3>
+            <h4 class="main__arct__subtitle">‘When I Get Home’</h4>
+            <p class="main__arct__text">‘When I Get Home’ reminds us that she’s a frontrunner of R&B in her own right. With soothing production, enveloped
+            with numbing vocals, she leaves you in a state of utopia.</p>
+            <p class="main__arct__text">This surprise album of 2019 was something we didn’t know we needed.</p>
+          </article><!--end main article-->
+
+          <article class="main__article">
+            <img class="main__arct__img" src="images/index_article3.jpg" alt="album photo">
+            <h3 class="main__arct__title">Bring Me The Horizon</h3>
+            <h4 class="main__arct__subtitle">‘amo’</h4>
+            <p class="main__arct__text">The various dark and mechanical intermission tracks on the album make for the most experimental peaks and exciting
+            signposts to the future.</p>
+            <p class="main__arct__text">It’s proof alone that this band can do what they want and get away with it. There’s nothing as exciting as a
+            surprise that pays off. It ain’t rocket science, it ain’t heavy metal, it’s just class songwriting.</p>
+          </article><!--end main article-->
+        </section><!--end main section-->
+      </div><!--end main block-->
+
+      <div class="main__ad">
+        <ul class="main__ad__ul">
+          <li class="main__ad__li"><a class="main__ad__a" href="https://www.coachella.com/"><img src="images/index_coachella4.png" alt="coachella festival logo"></a></li>
+          <li class="main__ad__li"><a class="main__ad__a" href="https://www.glastonburyfestivals.co.uk/"><img src="images/index_glastonbury.png" alt="glastonbury festival logo"></a></li>
+          <li class="main__ad__li"><a class="main__ad__a" href="https://szigetfestival.com/en-int"><img src="images/index_sziget.png" alt="sziget festival logo"></a></li>
         </ul>
-      </nav><!--end header nav-->
 
-      <h1 class="header__title"></h1>
+        <div class="main__ad__block">
+          <img class="main__ad__block__img" src="images/index_phone.png" alt="phone">
+          <h2 class="main__ad__title">DISCOVER your favorite music</h2>
+          <p class="main__ad__text">Music Box app is available on Web, iOS, Android.</p>
+          <a class="main__ad__button" href="#"><img src="images/index_app_store.png" alt="apple store"></a>
+          <a class="main__ad__button" href="#"><img src="images/index_google_play.png" alt="google play"></a>
+        </div>
+      </div><!--end main advert-->
+    </div><!--end container-->
+  </main><!--end main-->
 
-      <a href="" class="header__button"></a>
-    </header><!--end header-->
+  <footer class="footer">
+    <h3 class="footer__title">Follow us</h3>
+    <ul class="footer__contacts">
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-instagram"></i></a></li>
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-twitter"></i></a></li>
+    </ul>
 
-    <main class="main">
-      <section class="main__section">
-
-      </section><!--end main section-->
-
-      <arcticle class="main__article">
-
-      </arcticle><!--end main article-->
-
-      <aside class="main__aside">
-
-      </aside><!--end main aside-->
-    </main><!--end main-->
-
-    <footer class="footer">
-
-    </footer><!--end footer-->
-  </div><!--end container-->
+    <div class="footer__nav">
+      <p class="footer__nav__text">© 2019 MusicBox. All Rights Reserved.</p>
+      <ul class="footer__nav__ul">
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Legal</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Privacy policy</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Terms of use</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Advertising</a></li>
+      </ul>
+    </div>
+  </footer><!--end footer-->
 </body>
+
 </html>

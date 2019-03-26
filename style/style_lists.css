@@ -43,20 +43,11 @@
 	font-size: 20px;
 	float: right;
 	color: #2b2f34;
-}
-
+  
 .l-main__section__link:hover {
 	color: #fe6347;
 }
 
-/*.fa-play:before {
-	display: none;
-	font-size: 40px;
-	color: #fe6347;
-	position: absolute;
-	left: 80px;
-	top: 50px;
-}*/
 .fa-play {
   display: none;
   font-size: 40px;
@@ -69,11 +60,7 @@
 .l-main__section__img:hover + .fa-play {
   color: #fe6347;
 }
-
-/*.l-main__section__img:hover + .fa-play:before {
-	display: inline-block;
-}
-*/
+  
 .l-main__aside {
 	padding: 40px;
 	padding-bottom: 50px;
