@@ -3,46 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../style/style_lists.css">
-  <link rel="stylesheet" href="normalize/normalize.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="../normalize/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>PlayLists Up to U | Music Box</title>
+  <meta name="description" content="Check playlist that're already prepeared for you! Fresh updates every Monday!">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <img src="" alt="" class="header__logo">
+  <header class="header">
+    <a href="../index.html" class="header__logo__a"><img src="../images/index_logo.png" alt="logotype" class="header__logo"></a>
+    <a href="../index.html" class="header__logo__title">Music Box</a>
+    <nav class="header__nav">
+      <ul class="header__nav__ul">
+        <li class="header__nav__li"><a href="new_music.html" class="header__nav__li__a">New music</a></li>
+        <li class="header__nav__li"><a href="player.html" class="header__nav__li__a">Player</a></li>
+        <li class="header__nav__li"><a href="lists.html" class="header__nav__li__a">Playlists</a></li>
+        <li class="header__nav__li"><a href="subscribe.html" class="header__nav__li__a">Subscribe</a></li>
+        <li class="header__nav__li"><a href="#" class="header__nav__li__a"><i class="far fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <nav class="header__nav">
-        <ul class="header__nav__ul">
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
-          <li class="header__nav__li"></li>
+  <main class="l-main">
+
+    <section class="l-main__section">
+
+      <div class="l-main__section__container">
+        <h2 class="l-main__section__heading">Trending Playlists<a href="#" class="l-main__section__link">See all</a></h2>
+        <ul class="l-main__section__list">
+          <li class="l-main__section__item"><img src="../images/happy.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Feeling Happy<p></li>
+          <li class="l-main__section__item"><img src="../images/midnight.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Midnight City<p></li>
+          <li class="l-main__section__item"><img src="../images/urban.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Urban Throwback</p></li>
+          <li class="l-main__section__item"><img src="../images/warriors.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Weekend Warriors</p></li>
         </ul>
-      </nav><!--end header nav-->
+      </div>
 
-      <h1 class="header__title"></h1>
+      <div class="l-main__section__container">
+        <h2 class="l-main__section__heading">Playlist By Day<a href="#" class="l-main__section__link">See all</a></h2>
+        <ul class="l-main__section__list">
+          <li class="l-main__section__item"><img src="../images/monday.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Sober Monday</p></li>
+          <li class="l-main__section__item"><img src="../images/tuesday.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Tuesday Madness</p></li>
+          <li class="l-main__section__item"><img src="../images/wednesday.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Wednesday Chill</p></li>
+          <li class="l-main__section__item"><img src="../images/thursday.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Thursday Starter</p></li>
+        </ul>
+      </div>
 
-      <a href="" class="header__button"></a>
-    </header><!--end header-->
+      <div class="l-main__section__container">
+        <h2 class="l-main__section__heading">Playlist By Mood<a href="#" class="l-main__section__link">See all</a></h2>
+        <ul class="l-main__section__list">
+          <li class="l-main__section__item"><img src="../images/party.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Party</p></li>
+          <li class="l-main__section__item"><img src="../images/motivation.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Motivation</p></li>
+          <li class="l-main__section__item"><img src="../images/blue.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Blue</p></li>
+          <li class="l-main__section__item"><img src="../images/fitness.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Fitness</p></li>
+        </ul>
+      </div>
 
-    <main class="main">
-      <section class="main__section">
+      <div class="l-main__section__container">
+        <h2 class="l-main__section__heading">Playlist By Genre<a href="#" class="l-main__section__link">See all</a></h2>
+        <ul class="l-main__section__list">
+          <li class="l-main__section__item"><img src="../images/hiphop.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Hip-Hop</p></li>
+          <li class="l-main__section__item"><img src="../images/pop.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Pop</p></li>
+          <li class="l-main__section__item"><img src="../images/jazz.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Jazz</p></li>
+          <li class="l-main__section__item"><img src="../images/alternative.jpg" class="l-main__section__img"><i class="fas fa-play"></i><p>Alternative</p></li>
+        </ul>
+      </div>
+    </section>
 
-      </section><!--end main section-->
+    <aside class="l-main__aside">
+      <h2 class="l-main__aside__heading">Sign up for our newsletters</h2>
+      <div class="l-main__aside__container">
+        <input type="email" name="email" class="l-main__aside__input l-main__aside__elem-style" placeholder="Type E-mail">
+        <button class="l-main__aside__btn l-main__aside__elem-style">Send me awesome news</button>
+      </div>
+    </aside>
 
-      <arcticle class="main__article">
+  </main>
 
-      </arcticle><!--end main article-->
+  <footer class="footer">
+    <h3 class="footer__title">Follow us</h3>
+    <ul class="footer__contacts">
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-instagram"></i></a></li>
+      <li class="footer__contacts__li"><a href="#" class="footer__contacts__li__a"><i class="fab fa-twitter"></i></a></li>
+    </ul>
 
-      <aside class="main__aside">
+    <div class="footer__nav">
+      <p class="footer__nav__text">© 2019 MusicBox. All Rights Reserved.</p>
+      <ul class="footer__nav__ul">
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Legal</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Privacy policy</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Terms of use</a></li>
+        <li class="footer__nav__li"><a href="#" class="footer__nav__li__a">Advertising</a></li>
+      </ul>
+    </div>
+  </footer>
 
-      </aside><!--end main aside-->
-    </main><!--end main-->
-
-    <footer class="footer">
-
-    </footer><!--end footer-->
-  </div><!--end container-->
 </body>
 </html>
