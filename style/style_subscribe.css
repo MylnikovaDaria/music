@@ -87,16 +87,23 @@ body {
   text-align: center ;
   padding-top: 30px ;
   font-size: 40px ;
+  color:#40a9f4 ;
+  font-family: 'Poppins', sans-serif;
+
 }
 
-.s_main__top{
-  background-image: url(../images/index_top_bg.jpg) ;
-  color: white ;
-  height: 400px ;
-}
+.main__start{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 50px;
+  color: #40a9f4;
+}    
 
 .s_image__block__title p{
-  color: white ;
+  color: #2b2f34 ;
 }
 
 .title{
@@ -128,8 +135,12 @@ span{
 }
 
 .s_image__block__box:first-child{
-  padding-top: 50px ;
-}  
+  padding-top: 60px ;
+}
+
+.s_image__block__box:last-child{
+  padding-top: 20px ;
+}
 
 .s_image__block__box__text{
   padding-top: 20px ;
@@ -137,8 +148,8 @@ span{
   font-size: 19px ;  
 }
 
-.s_boxes__first__text{
-  padding-top: 70px ;
+.boxes__first__text{
+  padding-top: 62px ;
 }
 
 .s_devices__block__image{
@@ -199,10 +210,11 @@ table {
   margin: 0 10px ; 
   font-size: 20px ;
   padding-top: 40px ;
+  margin-bottom: 60px ;
 }
 
 td, th {  
-  color: #000 ;     
+  color: #2b2f34 ;     
   width: 30px ;
   text-align: left ;  
 }
@@ -212,14 +224,14 @@ td:first-child {
 } 
 
 td:first-child:hover{
-  background-color: rgba(71, 71, 71, 0.5);
+  background-color: #f2f2f2;
   border-radius: 20px ;
 }
 
 
 .footer {  
   height: 220px;
-  background-color: #000;
+  background-color:#2b2f34 ;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
